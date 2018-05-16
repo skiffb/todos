@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'pg', '~> 0.21'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -40,7 +41,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'capybara', '~>2.3.0'
+  gem 'capybara', '~>2.7.1'
 end
 
 group :development do
